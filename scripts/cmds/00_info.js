@@ -49,7 +49,7 @@ module.exports = {
 \Team: ${teamName}
 \Uptime: ${uptimeString}
 \===============`,
-		        attachment: fs.createReadStream(__dirname + `/noprefix/kk1.jpg`)
+			attachment: await global.utils.getStreamFromURL(link)
 		});
 	},
 	onChat: async function ({ event, message, getLang }) {
