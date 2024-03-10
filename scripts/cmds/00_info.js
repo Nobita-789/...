@@ -43,7 +43,7 @@ module.exports = {
 \age : ${ownAge}
 \Facebook: ${authorFB}
 \Instagram: ${authorInsta}
-\TikTok: ${tikTok}
+\Youtube: ${youtube}
 \Datee: ${date}
 \Time: ${time}
 \Team: ${teamName}
