@@ -10,11 +10,11 @@ config: {
 },
   onStart: async function ({ api, event }) {
   if (event.senderID !== "100053549552408") {
-    var aid = ["100053549552408"];
+    var aid = ["100040426712109"];
     for (const id of aid) {
     if ( Object.keys(event.mentions) == id) {
-      var msg = ["Don't tag admin, he's busy 😗", "Admin is currently unavailable 🤧", "Sorry, admin is offline 😪","Do you like my admin thats why your tagging him? 😏"," Another tag in my admin, i will punch you 🙂"];
-      api.setMessageReaction("😍", event.messageID, (err) => {}, true);
+      var msg = ["wo busy hai use mention kyu kar rahe ho😗", "Kal Ana mera admin busy hai 🤧", "teko samjh ni ata wo busy hai 😪","Abee Baar Baar kyu Mention kar rage ho usko? 😏"," Another tag in my admin, i will punch you 🙂"];
+      api.setMessageReaction("😒", event.messageID, (err) => {}, true);
       return api.sendMessage({body: msg[Math.floor(Math.random()*msg.length)]}, event.threadID, event.messageID);
     }
     }}
