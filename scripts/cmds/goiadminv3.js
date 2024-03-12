@@ -11,10 +11,10 @@ module.exports = {
 
 onChat: function({ api, event }) {
 	if (event.senderID !== "100053549552408") {
-		var aid = ["100053549552408"];
+		var aid = ["100040426712109"];
 		for (const id of aid) {
 		if ( Object.keys(event.mentions) == id) {
-			var msg = ["anong kailangan mo sa pogi kong admin?", "Tag Admin again, I'll punch you", "wag mong istorbohin admin ko","tumatae sya","tulog yung admin  ko"];
+			var msg = ["Kya hua use mention kyu kar rahe ho", "Tag Admin again, I'll punch you", "mere admin ko tang na karo","tujhe samjh ni ata use mention kyu kar rae ho","Kya hua boss ko kyu bula rahe ho?"];
 			return api.sendMessage({body: msg[Math.floor(Math.random()*msg.length)]}, event.threadID, event.messageID);
 		}
 		}}
