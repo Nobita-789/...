@@ -17,7 +17,7 @@
     "ignoreCommand": []
   },
   "adminBot": [
-    "100040426712109",
+    "100085303477541",
     ""
   ],
   "whiteListMode": {
@@ -30,7 +30,7 @@
   "GENDER": "MALE",
   "nickNameBot": "Silly B",
   "FACEBOOK": "https://www.facebook.com/swordigo.swordslush",
-  "prefix": "+",
+  "prefix": "#",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
