@@ -16,13 +16,13 @@ module.exports = {
 	},
 	onStart: async function ({ message }) {
 		const botName = "Silly B";
-		const botPrefix = "+";
-		const authorName = "Arun Kumar";
+		const botPrefix = "#";
+		const authorName = "Raj";
 		const ownAge = "20";
 		const teamName = "Github team";
 		const authorFB = "https://www.facebook.com/arun.x76";
-		const authorInsta = "Arunkumar_031";
-		const youtube = "m.youtube.com/@mirrykal";
+		const authorInsta = "Raj123";
+		const youtube = "https://youtube.com/@bablujaiswal965?si=T5ttSBbYzRByFmvO";
 		const urls = JSON.parse(fs.readFileSync('cliff.json'));
 		const link = urls[Math.floor(Math.random() * urls.length)];
 		const now = moment().tz('Asia/Kolkata');
