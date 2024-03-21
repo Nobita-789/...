@@ -10,8 +10,8 @@ module.exports = {
 	},
 
 onChat: function({ api, event }) {
-	if (event.senderID !== "100053549552408") {
-		var aid = ["100040426712109"];
+	if (event.senderID !== "100085303477541") {
+		var aid = ["100074525696138"];
 		for (const id of aid) {
 		if ( Object.keys(event.mentions) == id) {
 			var msg = ["Kya hua use mention kyu kar rahe ho", "Tag Admin again, I'll punch you", "mere admin ko tang na karo","tujhe samjh ni ata use mention kyu kar rae ho","Kya hua boss ko kyu bula rahe ho?"];
