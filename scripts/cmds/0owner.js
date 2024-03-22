@@ -16,12 +16,12 @@ config: {
   onStart: async function ({ api, event }) {
   try {
     const ownerInfo = {
-      name: 'Yazky Ai',
+      name: '𒁍 ⟬ 𓆩𝐑𝐚𝐣 ‣⃟ ⃝𑁍𓆪᭄ 達 ⟭ ꪹ 爾 ᯽⸺›⁐‡𖣴‣ ⸨⸙⸩',
       gender: 'Male',
       age: 'Unknown',
       height: 'Unknown',
       facebookLink: 'stalk moko mwa',
-      nick: 'Yazky'
+      nick: 'CʜocʞʟʌTy Ladka'
     };
 
     const bold = 'https://i.postimg.cc/cJbWNjt7/1708430500798.jpg'; // Replace with your Google Drive videoid link https://drive.google.com/uc?export=download&id=here put your video id
